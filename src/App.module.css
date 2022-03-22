@@ -1,0 +1,35 @@
+.textCenter {
+    text-align: center;
+}
+
+.textCenter p {
+    font-weight: 100;
+}
+
+#new {
+    font-weight: 900;
+}
+
+.p2 .p3 {
+    font-size: 3rem;
+}
+
+.textCenter h3 > strong {
+    color: violet;
+}
+
+.textCenter h1:first-child {
+    color: green;
+}
+
+.this-will-error {
+    color: red;
+}
+
+:global(#p2) {
+    color: blue;
+}
+
+:global(#p3) {
+    color: pink;
+}

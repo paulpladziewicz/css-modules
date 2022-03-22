@@ -1,0 +1,41 @@
+.button-padding {
+    padding: 1rem;
+}
+
+.button {
+    composes: mt-20 from "../Margin.module.css";
+    composes: button-padding;
+    width: 200px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button:hover {
+    cursor: pointer;
+}
+#text {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+/*Add breakpoints*/
+@media screen and (min-width: 300px) {
+    #text {
+        color: brown;
+    }
+}
+@media screen and (min-width: 400px) {
+    #text {
+        color: blue;
+    }
+}
+@media screen and (min-width: 500px) {
+    #text {
+        color: green;
+    }
+}
+@media screen and (min-width: 600px) {
+    #text {
+        color: black;
+    }
+}
